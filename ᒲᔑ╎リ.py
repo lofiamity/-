@@ -1,9 +1,11 @@
-5879583968:AAEcefwcNIz_ALskE9OOZs744URsZa2TJ_o
+# 5879583968:AAEcefwcNIz_ALskE9OOZs744URsZa2TJ_o
+
+import streamlit
     
 import pyshorteners
 import telebot
 
-bot = telebot.TeleBot("YOUR_BOT_TOKEN")
+bot = telebot.TeleBot("5879583968:AAEcefwcNIz_ALskE9OOZs744URsZa2TJ_o")
 s = pyshorteners.Shortener()
 
 @bot.message_handler(commands=['short'])
